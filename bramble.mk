@@ -14,10 +14,8 @@
 # limitations under the License.
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_bramble.mk \
-    $(LOCAL_DIR)/bramble.mk \
+# Inherit AOSP product configuration
+$(call inherit-product, device/google/bramble/aosp_bramble.mk)
 
-COMMON_LUNCH_CHOICES := \
-    aosp_bramble-userdebug \
-    bramble-userdebug \
+# Remove AOSP prefix from product name
+PRODUCT_NAME := bramble
