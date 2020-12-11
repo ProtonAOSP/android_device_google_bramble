@@ -37,7 +37,7 @@ LOCAL_PATH := device/google/bramble
 PRODUCT_SOONG_NAMESPACES += \
     device/google/bramble
 
-DEVICE_PACKAGE_OVERLAYS += device/google/bramble/bramble/overlay
+PRODUCT_PACKAGE_OVERLAYS += device/google/bramble/bramble/overlay
 
 # Audio XMLs for bramble
 
