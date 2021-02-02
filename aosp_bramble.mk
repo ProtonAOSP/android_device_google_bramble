@@ -66,5 +66,5 @@ PRODUCT_MODEL := Pixel 4a 5G
 
 # Match stock product info
 PRODUCT_OVERRIDE_INFO := true
-PRODUCT_OVERRIDE_FINGERPRINT := google/bramble/bramble:11/RQ1A.210105.003/7005429:user/release-keys
-PRODUCT_OVERRIDE_DESC := bramble-user 11 RQ1A.210105.003 7005429 release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/bramble/bramble:11/RQ1C.210205.006/7047959:user/release-keys
+PRODUCT_OVERRIDE_DESC := bramble-user 11 RQ1C.210205.006 7047959 release-keys
