@@ -18,7 +18,7 @@ source ../../../common/clear-factory-images-variables.sh
 BUILD=eng.$USER
 DEVICE=bramble
 PRODUCT=bramble
-VERSION=rq3a.210605.005
+VERSION=rq3a.210705.001
 SRCPREFIX=../../../../out/target/product/bramble/obj/PACKAGING/target_files_intermediates/
 BOOTLOADER=b5-0.3-7241846
 RADIO=g7250-00132-210419-B-7294132
