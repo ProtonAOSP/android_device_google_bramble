@@ -51,10 +51,6 @@ $(call inherit-product-if-exists, vendor/google_devices/bramble/prebuilts/device
 $(call inherit-product-if-exists, vendor/google/bramble/bramble-vendor.mk)
 $(call inherit-product-if-exists, vendor/google/redfin/redfin-vendor.mk)
 
-# Exclude features that are not available on AOSP devices.
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/aosp_excluded_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/aosp_excluded_hardware.xml
-
 # Keep the VNDK APEX in /system partition for REL branches as these branches are
 # expected to have stable API/ABI surfaces.
 ifneq (REL,$(PLATFORM_VERSION_CODENAME))
