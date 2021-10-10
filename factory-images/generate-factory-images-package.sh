@@ -15,11 +15,11 @@
 # limitations under the License.
 
 source ../../../common/clear-factory-images-variables.sh
-BUILD=6291635
+BUILD=eng.nobody
 DEVICE=bramble
 PRODUCT=bramble
-VERSION=rd1a.200312.002
-SRCPREFIX=signed-
-BOOTLOADER=b5-0.2-6218156
-RADIO=g7250-00014-200305-B-6264959
+VERSION=spb5.210812.002
+SRCPREFIX=../../../../out/target/product/coral/obj/PACKAGING/target_files_intermediates/
+BOOTLOADER=b5-0.4-7617461
+RADIO=g7250-00147-210811-B-7631450
 source ../../../common/generate-factory-images-common.sh
