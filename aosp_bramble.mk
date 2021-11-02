@@ -72,4 +72,4 @@ PRODUCT_DEVICE := bramble
 PRODUCT_MODEL := Pixel 4a (5G)
 
 # Match stock build fingerprint
-PRODUCT_OVERRIDE_FINGERPRINT := google/bramble/bramble:12/SP1A.210812.016.A1/7796139:user/release-keys
+PRODUCT_OVERRIDE_FINGERPRINT := google/bramble/bramble:12/SP1A.211105.004/7842311:user/release-keys
